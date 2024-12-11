@@ -1,0 +1,66 @@
+/* Import Bootstrap and Bootstrap Icons */
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+
+:root {
+  --primary-color: #b7d3e4;
+  --secondary-color: #0056b3;
+  --accent-color: #ffc107;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+.navbar-brand img {
+  max-height: 50px;
+}
+
+.hero-section {
+  background-color: var(--primary-color);
+  font-size: 17px;
+  padding:0.2rem;
+}
+
+.complaint-up {
+  background-color: #cde2ee;
+  padding: 0.2rem 0rem 0rem 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.complaint-form {
+  background-color: #e4f1f9;
+  padding: 2rem 3rem 3rem 3rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 2rem 0;
+  }
+  
+  .complaint-form {
+    padding: 1rem;
+  }
+}
+
+.header {
+  background-color: #285c7e;
+  height: 80px;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+
+.semel-medina, .semel-office {
+  height: 50px;
+  width: 50px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
